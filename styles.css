@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	pad: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+
+}
+
+.head{
+
+	height: 60px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+
+
+}
+span {
+	
+	padding: 20px 20px;
+}
+.logoandpulsefit{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.logo{
+	padding-left: 60px;
+	width: 50px;
+}
+
+.menuimage{
+	position: relative;
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	margin: 0;
+
+
+}
+.menuimage img{
+	width: 100%;
+
+}
+header{
+
+	
+	background-color: rgba(24, 89, 103, 0.65);
+
+}
+
+
+
+
+.buttonbuy {
+	
+	background-color: rgba(109, 153, 163, 0.7);
+	border: 2px solid black;
+	font-size: 18px;
+	width: 200px;
+	padding: 5px 5px;
+	position: absolute; /* Абсолютне позиціонування кнопки поверх зображення */
+	border: 2px solid black;
+
+    top: 50%;
+    left: 80%; /* Вирівнювання по центру */
+    transform: translate(-50%,-50%); /* Центрування кнопки */
+    
+}
+.buttonbuy:hover{
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+nav a {
+	text-decoration: none;
+	color: black;
+	margin-left: 15px ;
+
+
+	}
+nav a:last-child {
+    padding-right: 60px; 
+}
+
+h2{
+	padding: 40px; 
+	text-align: center;
+
+}
+
+
+
+.footer_white {
+	color: white;
+}
+main{
+	width: 100vw;
+	background-color: rgba(24, 89, 103, 0.65);
+	margin: 0;
+	
+	
+}
+.imageaboutus{
+	padding-left: 60px;
+	width: 90%;
+}
+.imageaboutus img{
+	display: flex;              
+    flex-direction: column;     
+	align-items: center; 
+	width: 100%;
+}
+.textandimageaboutus
+{
+	display: flex;
+	
+    align-items: left; /* Вирівнює зображення і текст по вертикалі */
+    gap: 20px; /* Відстань між зображенням і текстом */
+    padding: 0 60px;
+    flex-wrap: wrap;
+    
+}
+.aboutus{
+	margin-left: 60px;
+	margin-right: 60px;
+
+}
+
+.buttonandimage {
+    position: relative; /* Для позиціонування кнопки поверх зображення */
+    
+}
+.fitnesswatch{
+	
+	width: 200px ;
+	height: 300px ;
+
+
+	background-color: #BBCACC;
+	border: 2px solid black;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.fitnesswatch:hover{
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+.whyuspage{
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0 60px;
+}
+
+
+.imagefitnesswatch{
+	margin-top: 20px
+
+}
+
+
+.twogroupprograms{
+	padding: 0 60px;
+
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	gap: 20px;
+	flex-wrap: wrap;
+	
+
+}
+
+.groupprograms{
+	
+	width: 500px;
+	height: 430px;
+	
+	background-color: #BBCACC;
+	text-align: left;
+	position: relative;
+	margin-bottom: 30px;
+
+
+}
+.groupprograms img{
+	width: 500px;
+	height: 330px;
+}
+.groupprograms:hover{
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+.buttongroupprograms{
+	background-color: #298295;
+	border: 2px solid black;
+	font-size: 20px;
+	position: absolute;
+	bottom: 15px; /* Відступ знизу */
+    right: 20px; /* Відступ справа */
+
+}
+.buttongroupprograms:hover{
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.buttongroupprograms{
+	background-color: #298295;
+	border: 2px solid black;
+	font-size: 12px;
+	position: absolute;
+	bottom: 15px; /* Відступ знизу */
+    right: 15px; /* Відступ справа */
+
+}
+.text-block{
+	width: 80%;
+	padding-left: 20px;
+}
+
+
+.abonement{
+	margin-left: 60px;
+	margin-right: 60px;
+	width: 260px ;
+	height: 400px ;
+	background-color: #BBCACC;
+	text-align: left;
+	position: relative;
+	margin-bottom: 30px;
+	
+}
+.abonement:hover{
+	background-color: rgba(24, 89, 103, 0.65);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+
+}
+.allabonement{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+
+}
+.imageabonement{
+
+	margin: 0 50px; 
+}
+.nameabonement{
+	text-align: center;
+
+}
+.textmobile{
+		display: block;
+	}
+
+
+footer{
+	
+	padding: 0;
+	background-color: rgba(24, 89, 103, 0.65)
+}
+.end{
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.menu{
+	width: 35px;
+}
+.menu img{
+	width: 100%;
+}
+.menu {
+	display: none;
+}
+.burgermenu{
+	display: none;
+
+}
+.form{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.labelsubmit {
+    
+background-color: #BBCACC; /* основний колір кнопки */
+color: black;
+      
+padding: 10px 20px;
+      
+border: none;     
+border-radius: 5px;
+      
+cursor: pointer;
+    font-size: 16px;
+}
+
+
+.labelsubmit:hover {
+      
+background-color: rgba(24, 89, 103, 0.65);
+}
+
+
+
+
+@media (max-width: 700px) {
+.header{
+	flex-direction: row; /* В один рядок на мобільному */
+    justify-content: space-around;
+
+}
+
+
+.burgermenu{
+	display: block;
+	}
+.burgermenu {
+    position: relative;
+     text-align: left;
+}
+
+/* Сховати чекбокс */
+#burger-toggle {
+    display: none;
+}
+
+/* Стиль бургер-іконки */
+.burger-icon {
+    cursor: pointer;
+    display: block;
+    width: 200px; /* Ширина іконки */
+    height: 40px; /* Висота іконки */
+    margin-right: 15px;
+}
+
+/* Стиль зображення бургер-меню */
+.menu {
+    width: 100%;
+    height: 100%;
+}
+
+/* Список меню */
+.menu-options {
+    display: none; /* Сховати меню за замовчуванням */
+    position: absolute; /* Відносно батьківського елемента */
+    top: 50px; /* Відстань від верхнього краю */
+    left: 0;
+	background-color: #BBCACC; /* Фон меню */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь */
+    z-index: 1000; /* Підняти над іншими елементами */
+    width: 100%; /* Ширина меню */
+    max-width: 100%; /* Не перевищувати ширину екрана */
+    overflow: hidden; /* Сховати вихідний контент */
+
+}
+
+/* Показати меню, коли чекбокс активовано */
+#burger-toggle:checked + .burger-icon + .menu-options {
+    display: block; /* Показати меню */
+}
+
+/* Стилі для елементів списку */
+.menu-options li {
+    padding: 10px 20px; /* Внутрішні відступи */
+    border-bottom: 1px solid #e0e0e0; /* Роздільник */
+}
+
+/* Стилі для посилань */
+.menu-options li a {
+    text-decoration: none; /* Без підкреслення */
+    color: #333; /* Колір тексту */
+    display: block; /* Зробити посилання блочним елементом */
+}
+
+/* Градієнт для фонового кольору на hover */
+.menu-options li a:hover {
+    background-color: #f5f5f5; /* Зміна фону на hover */
+}
+
+	.menu  {
+		display: block;
+		margin-right: 20px;
+
+	}
+
+	nav{
+		display: none;
+	}
+    .head {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    
+
+    span {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        padding-left: 0;
+        width: 20px;
+    }
+    .logoandpulsefit{
+    	 display: flex;
+    	 margin-left: 20px;
+    }
+
+    .menuimage {
+    	height: 200px;
+
+        padding: 0 0;
+    }
+
+    .buttonbuy {
+    	width: 100px;
+       
+        font-size: 10px;
+    }
+
+    .head {
+        flex-direction: row; /* В один рядок на мобільному */
+        justify-content: space-between; /* Розташування по краях */
+       
+        height: 50px;
+        width: 100%;
+    }
+    .twogroupprograms{
+
+		padding: 0 0;
+
+    }
+
+    .groupprograms{
+    
+    	padding: 0 0;
+    	width: 350px;
+    	height: 350px;
+		
+
+    }
+    .groupprograms img{
+    	width: 350px;
+    	height: 200px;
+    }
+
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .imageaboutus {
+    	padding: 0 20px;
+    }
+    .aboutus{
+    	margin: 0 20px;
+    	margin-bottom: 0;
+    }
+
+    .textandimageaboutus {
+    	flex-direction: column;
+   		 align-items: center;
+    
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+   
+
+    .fitnesswatch {
+        flex-direction: column;
+        align-items: center;
+    }
+    .allabonement{
+    	flex-direction: column;
+        align-items: center;
+
+    }
+    .fitnesswatch{
+    	width: 200px;
+    }
+    .twogroupprograms{
+    	flex-direction: column;
+    	align-items: center;
+    	
+
+    }
+
+    .whyuspage {
+        flex-direction: column;
+        align-items: center
+    }
+
+    h2 {
+    	flex-direction: column;
+    	align-items: center;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    
+    .textmobile{
+    display: none;	
+    }
+    .end{
+    	flex-direction: row; /* В один рядок на мобільному */
+        justify-content: space-around;/* Розташування по краях */
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+
+    }
+
+}
+@media (max-width: 413px){
+	.groupprograms{
+		width: 300px;
+		height: 350px;
+	}
+	.groupprograms img{
+		width: 300px;
+		height: 150;
+	}
+	.fitnesswatch{
+		width: 200px;
+		height: 250px;
+	}
+	.fitnesswatch img{
+		width: 30;
+		width: 100%;
+	}
+	.fitnesswatch p{
+		font-size: 14px;
+	}
+	.allabonement{
+    	flex-direction: column;
+        align-items: center;
+
+    }
+    .abonement{
+    	width: 220px;
+    }
+	.end p{
+		font-size: 10px;
+	}
+	p{
+		font-size: 14px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 16px;
+	}
+	b{
+		font-size: 14px;
+	}
+
+
+}
